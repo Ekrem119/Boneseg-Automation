@@ -1,0 +1,26 @@
+# --- DATASETS & LARGE FILES ---
+Datasets/
+losses_training/
+*.zip
+samples_images.zip
+needed
+**/sam2/checkpoints/
+**/*.pt
+**/*.pth
+**/*.nd2
+**/*.tif
+**/*.tiff
+
+# --- ENVIRONMENTS & SYSTEM ---
+env/
+venv/
+**/boneseg_env/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# --- OUTPUTS & LOGS ---
+results.txt
+**/*.csv
+BoneSeg_QA_Visuals/
+BoneSeg_Stitch_Visuals/
